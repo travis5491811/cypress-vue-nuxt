@@ -11,7 +11,16 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/css/main.scss', '@/assets/css/formStyles.scss'],
+
+  // global access to scss variables (https://github.com/nuxt-community/style-resources-module)
+  styleResources: {
+    scss: [
+      // './assets/css/*.scss',
+      './assets/css/main.scss',
+      './assets/css/formStyles.scss',
+    ],
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -33,6 +42,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // style resources
+    '@nuxtjs/style-resources',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

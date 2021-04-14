@@ -1,0 +1,86 @@
+@import 'colors.scss';
+
+// .form-label {
+//   width: 100%;
+//   font-weight: bold;
+//   background-color: $accent-light;
+//   box-shadow: 1px 1px 1px $primary-dark;
+//   color: $black1;
+//   padding-left: 5px;
+//   // @media screen and (max-width: 1400px) {
+//   //   width: 100%;
+//   // }
+// }
+
+.form-label {
+  width: 100%;
+  font-weight: 700;
+  background-color: $accent-light;
+  box-shadow: $primary-dark 1px 1px 1px;
+  color: $black1;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  border-radius: 5px !important;
+  padding: 5px;
+}
+
+input {
+  background-color: $accent-light !important;
+  box-shadow: 1px 1px 1px $primary-dark, 2px 2px 2px $primary-dark inset !important;
+  color: $black1 !important;
+}
+
+input:disabled {
+  cursor: not-allowed !important;
+  background: $primary-dark2 !important;
+}
+
+.input-group-prepend .input-group-text {
+  background-color: $primary-dark;
+  color: $accent-light;
+}
+
+.form-control {
+  color: $black1 !important;
+}
+
+.form-control:focus {
+  border-color: $black1;
+  box-shadow: 0 0 0 0.2rem $black1;
+}
+
+::placeholder {
+  color: $black1 !important;
+}
+
+.b-form-btn-label-control.form-control, select, textarea {
+  background-color: $accent-light !important;
+  box-shadow: 1px 1px 1px $primary-dark, 2px 2px 2px $primary-dark inset !important;
+  color: $black1 !important;
+}
+
+.b-form-tags {
+  background-color: $accent-light !important;
+  box-shadow: 1px 1px 1px $primary-dark, 2px 2px 2px $primary-dark inset !important;
+  color: $black1 !important;
+}
+
+.b-form-tags .badge {
+  background-color: $primary-dark;
+  color: $accent-light;
+}
+
+.b-form-tags .btn, .b-form-tags .dropdown .btn {
+  background-color: $primary-dark;
+  color: $accent-light;
+}
+
+.b-form-datepicker label {
+  max-width: 65%;
+  vertical-align: text-top;
+  display: inline-block !important;
+}
+
+.b-form-datepicker button {
+  margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+$primary-dark: #490909;
+$primary-dark2: #7f1010;
+$primary-light: #ff1f1f;
+$accent-light: #d7caca;
+$accent-dark: #000;
+$black1: #000;
+
+:export {
+  primaryDark: $primary-dark;
+  primaryDark2: $primary-dark2;
+  // ... other colors
+}

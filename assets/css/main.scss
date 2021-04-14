@@ -1,0 +1,40 @@
+@import 'colors.scss';
+
+body {
+  font-weight: 400 !important;
+  font-family: Dosis, sans-serif !important;
+}
+
+.nav-main-site-top-logo {
+  font-size: 1.6em;
+  font-family: Palatino, Georgia, serif;
+  text-shadow: 2px 2px #000;
+  color: #000;
+  background-color: $primary-dark;
+  text-align: left;
+  grid-column: span 4 / span 4;
+}
+
+.nav-main-site-top-logo a {
+  text-decoration-line: none;
+  color: $primary-light;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-main-site-top-logo {
+    grid-column: span 3 / span 3;
+  }
+}
+
+.tst-badge {
+  background-color: $primary-dark;
+}
+
+.tst-btn {
+  background-color: $primary-dark2;
+  color: $accent-light;
+}
+
+.tst-btn:disabled {
+  background-color: darkgray;
+}
