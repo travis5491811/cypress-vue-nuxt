@@ -1,3 +1,6 @@
+/* eslint-disable import/no-absolute-path */
+import './Logo.css'
+
 import { mount } from '@cypress/vue'
 import { BRow, BCol, BFormInput, BButton } from 'bootstrap-vue'
 import Logo from './Logo.vue'
